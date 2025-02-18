@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
+import Skill from "./components/Skill";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Navigation />
           <Hero />
           <Projects />
+          <Skill />
         </div>
       </div>
     </main>
