@@ -1,4 +1,5 @@
 import "./App.css";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
@@ -13,6 +14,7 @@ function App() {
           <Hero />
           <Projects />
           <Skill />
+          <Experience />
         </div>
       </div>
     </main>
