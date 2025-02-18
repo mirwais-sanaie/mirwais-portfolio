@@ -1,9 +1,9 @@
-import project1 from "../../public/project1.webp";
-import project2 from "../../public/project2.webp";
-import project3 from "../../public/project3.webp";
-import project4 from "../../public/project4.webp";
-import project5 from "../../public/project5.webp";
-import project6 from "../../public/project6.webp";
+import project1 from "../../public/project1.png";
+import project2 from "../../public/project2.png";
+import project3 from "../../public/project3.png";
+import project4 from "../../public/project4.png";
+import project5 from "../../public/project5.png";
+import project6 from "../../public/project6.png";
 import personImage from "../../public/testimonial.webp";
 
 import {
@@ -28,66 +28,66 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "David Stones",
-  role: "Full Stack Developer",
+  name: "Mirwais Sanaie",
+  role: "Front-End Developer",
   subheading:
-    "With 10 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+    "With 2 years of front-end development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
 };
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "WorldWise Website",
     description:
       "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    techStack: ["React", "Html", "Css", "ContextApi"],
     imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    link: "https://worldwise-app-delta.vercel.app",
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "Use PopCorn app",
     description:
       "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
     techStack: ["React", "Firebase", "Redux"],
     imgSrc: project2,
-    link: "https://example-socialapp.com",
+    link: "https://usepopcorn-addtowatch.netlify.app",
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Travel list app",
     description:
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["Next.js", "Tailwind CSS"],
+    techStack: ["React", "Tailwind CSS"],
     imgSrc: project3,
-    link: "https://myportfolio.com",
+    link: "https://travel-lits.web.app",
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Shopping list Website",
     description:
       "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
+    techStack: ["React", "Tailwind CSS"],
     imgSrc: project4,
-    link: "https://example-blogplatform.com",
+    link: "https://shopping-list-self.netlify.app",
   },
   {
     id: 5,
-    title: "Task Management App",
+    title: "Pay Bill app",
     description:
       "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
+    techStack: ["React", "Html", "Css"],
     imgSrc: project5,
-    link: "https://example-taskapp.com",
+    link: "https://pay-bill-withfriend.netlify.app",
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "Restaurant Website",
     description:
       "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
+    techStack: ["Html", "css"],
     imgSrc: project6,
-    link: "https://example-learningplatform.com",
+    link: "https://restaurant-univer.netlify.app",
   },
 ];
 
@@ -165,8 +165,8 @@ export const EDUCATION = [
   {
     id: 1,
     degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2012 - 2016",
+    institution: "Herat University",
+    duration: "2022 - 2026",
     description:
       "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
   },
@@ -181,8 +181,8 @@ export const EDUCATION = [
   {
     id: 3,
     degree: "Certified React Developer",
-    institution: "Udacity Nanodegree",
-    duration: "2019",
+    institution: "Hacker Rank",
+    duration: "2025",
     description:
       "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
   },

@@ -82,7 +82,7 @@ function Navigation() {
 
           <div>
             {isMobileOpen && (
-              <ul className="flex flex-col items-center my-4 ml-4 gap-6 backdrop-blur-md">
+              <ul className="flex flex-col my-4 ml-4 gap-6 backdrop-blur-md">
                 {NAVIGATION_LINKS.map((item, i) => {
                   return (
                     <li key={i}>
