@@ -4,7 +4,7 @@ import { EXPERIENCES } from "../constants";
 function Experience() {
   const experienceRef = useRef(null);
   return (
-    <section className="py-16" id="work" rel={experienceRef}>
+    <section className="py-16" id="work" ref={experienceRef}>
       <div className="mx-auto max-w-4xl px-4">
         <h2 className="mb-12 text-center text-3xl font-medium lg:text-4xl">
           Experience

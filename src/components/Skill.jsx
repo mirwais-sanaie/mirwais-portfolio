@@ -4,7 +4,7 @@ import { SKILLS } from "../constants";
 function Skill() {
   const SkillRef = useRef(null);
   return (
-    <section className="py-16" id="skills" rel={SkillRef}>
+    <section className="py-16" id="skills" ref={SkillRef}>
       <div className="px-4">
         <h2 className="mb-8 text-center text-3xl font-medium lg:text-4xl">
           Skills

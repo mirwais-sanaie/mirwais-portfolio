@@ -1,4 +1,6 @@
 import "./App.css";
+import Contact from "./components/Contact";
+import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
@@ -15,6 +17,8 @@ function App() {
           <Projects />
           <Skill />
           <Experience />
+          <Education />
+          <Contact />
         </div>
       </div>
     </main>
