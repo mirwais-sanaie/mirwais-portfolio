@@ -1,10 +1,68 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { PROFILE } from "../constants";
 import { RiArrowRightUpLine } from "@remixicon/react";
 import Mirwais from "../../public/Mirwais.webp";
+import { gsap } from "gsap";
 
 function Hero() {
   const heroRef = useRef(null);
+
+  useEffect(function () {
+    const ctx = gsap.context(() => {
+      const tl = gsap.timeline({
+        defaults: { ease: "power3.out", duration: 0.6 },
+      });
+
+      tl.from(".hero-title", {
+        opacity: 0,
+        y: -50,
+        scale: 0.95,
+        duration: 0.8,
+        stagger: 0.15,
+      })
+        .from(
+          ".hero-subheading",
+          {
+            opacity: 0,
+            y: 50,
+            scale: 0.95,
+            duration: 0.8,
+          },
+          "-=0.4"
+        )
+        .from(
+          ".hero-text",
+          {
+            opacity: 0,
+            y: 30,
+            duration: 0.7,
+          },
+          "-=0.4"
+        )
+        .from(
+          ".hero-btn",
+          {
+            opacity: 0,
+            scale: 0.9,
+            duration: 0.7,
+          },
+          "-=0.3"
+        )
+        .from(
+          ".hero-img",
+          {
+            opacity: 0,
+            scale: 0.9,
+            y: 100,
+            duration: 0.8,
+          },
+          "-=0.5"
+        );
+    }, heroRef);
+
+    return () => ctx.revert();
+  }, []);
+
   return (
     <section
       className="flex min-h-screen flex-col pt-21 items-center justify-center gap-4 lg:gap-6"

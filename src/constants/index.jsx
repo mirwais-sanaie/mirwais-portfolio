@@ -187,11 +187,3 @@ export const EDUCATION = [
       "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
   },
 ];
-
-export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
-  quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-  image: personImage,
-};
