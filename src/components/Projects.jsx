@@ -46,11 +46,13 @@ function Projects() {
                   target="_blank"
                   rel="norepenner noreferrer"
                 >
-                  <img
-                    src={project.imgSrc}
-                    alt={project.title}
-                    className="h-80 w-full object-cover"
-                  />
+                  <div className="overflow-hidden">
+                    <img
+                      src={project.imgSrc}
+                      alt={project.title}
+                      className="h-80 w-full object-cover transition-transform duration-300 transform hover:scale-110"
+                    />
+                  </div>
                 </a>
                 <div className="p-6">
                   <h3 className="mb-2 text-lg font-medium lg:text-2xl">

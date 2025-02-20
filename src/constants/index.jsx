@@ -4,7 +4,6 @@ import project3 from "../../public/project3.png";
 import project4 from "../../public/project4.png";
 import project5 from "../../public/project5.png";
 import project6 from "../../public/project6.png";
-import personImage from "../../public/testimonial.webp";
 
 import {
   RiHtml5Line,

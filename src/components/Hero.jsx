@@ -3,32 +3,22 @@ import { PROFILE } from "../constants";
 import { RiArrowRightUpLine } from "@remixicon/react";
 import Mirwais from "../../public/Mirwais.webp";
 import { gsap } from "gsap";
+import { TextPlugin } from "gsap/TextPlugin";
+
+gsap.registerPlugin(TextPlugin);
 
 function Hero() {
   const heroRef = useRef(null);
 
-  useEffect(function () {
+  useEffect(() => {
     const ctx = gsap.context(() => {
-      const tl = gsap.timeline({
-        defaults: { ease: "power3.out", duration: 0.6 },
-      });
+      const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
 
-      tl.from(".hero-title", {
-        opacity: 0,
-        y: -50,
-        scale: 0.95,
-        duration: 0.8,
-        stagger: 0.15,
-      })
-        .from(
+      tl.to(".hero-title", { duration: 1.5, text: PROFILE.name, ease: "none" })
+        .to(
           ".hero-subheading",
-          {
-            opacity: 0,
-            y: 50,
-            scale: 0.95,
-            duration: 0.8,
-          },
-          "-=0.4"
+          { duration: 1.2, text: PROFILE.role, ease: "none" },
+          "-=0.5"
         )
         .from(
           ".hero-text",
@@ -69,18 +59,14 @@ function Hero() {
       ref={heroRef}
     >
       <div>
-        <h1 className="hero-title text-4xl uppercase lg:text-5xl">
-          {PROFILE.name}
-        </h1>
-        <h2 className="hero-subheading bg-gradient-to-b from-pink-200 to-purple-300 bg-clip-text text-center text-2xl tracking-tighter text-transparent">
-          {PROFILE.role}
-        </h2>
+        <h1 className="hero-title text-4xl uppercase lg:text-5xl"></h1>
+        <h2 className="hero-subheading bg-gradient-to-b from-pink-200 to-purple-300 bg-clip-text text-center text-2xl tracking-tighter text-transparent"></h2>
       </div>
       <p className="hero-text max-w-2xl p-2 text-center text-xl tracking-tight lg:text-2xl">
         {PROFILE.subheading}
       </p>
       <a
-        href=""
+        href="../../public/myResume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
