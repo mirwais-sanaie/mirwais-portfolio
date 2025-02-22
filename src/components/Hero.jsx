@@ -66,7 +66,7 @@ function Hero() {
         {PROFILE.subheading}
       </p>
       <a
-        href="../../public/myResume.pdf"
+        href="./myResume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download

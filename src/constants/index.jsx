@@ -10,13 +10,11 @@ import {
   RiCss3Line,
   RiJavascriptLine,
   RiReactjsLine,
-  RiNodeTree,
+  RiBootstrapLine,
+  RiFirebaseLine,
+  RiGithubLine,
 } from "@remixicon/react";
-import {
-  RiDatabaseLine,
-  RiCodeSSlashLine,
-  RiGitBranchLine,
-} from "@remixicon/react";
+import { RiCodeSSlashLine } from "@remixicon/react";
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -42,51 +40,57 @@ export const PROJECTS = [
     techStack: ["React", "Html", "Css", "ContextApi"],
     imgSrc: project1,
     link: "https://worldwise-app-delta.vercel.app",
+    sourceCode: "https://github.com/mirwais-sanaie/Worldwise-app",
   },
   {
     id: 2,
     title: "Use PopCorn app",
     description:
-      "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
+      "A React application that provides users with a way to explore movies, rate them, and manage their watched movies list.",
     techStack: ["React", "Firebase", "Redux"],
     imgSrc: project2,
     link: "https://usepopcorn-addtowatch.netlify.app",
+    sourceCode: "https://github.com/mirwais-sanaie/usePopCorn-app",
   },
   {
     id: 3,
     title: "Travel list app",
     description:
-      "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
+      "With the Far away app you can write down your essentials for the trip to prepare them.",
     techStack: ["React", "Tailwind CSS"],
     imgSrc: project3,
     link: "https://travel-lits.web.app",
+    sourceCode: "https://github.com/mirwais-sanaie/TravelList-app",
   },
   {
     id: 4,
     title: "Shopping list Website",
     description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
+      "A Taking note app with these tools save item , delete , edit. Secure and fully customized",
     techStack: ["React", "Tailwind CSS"],
     imgSrc: project4,
     link: "https://shopping-list-self.netlify.app",
+    sourceCode: "https://github.com/mirwais-sanaie/shopping-list",
   },
   {
     id: 5,
     title: "Pay Bill app",
     description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
+      "A bill management app with tools of divide bill among friends, add friend, edit and remove it.",
     techStack: ["React", "Html", "Css"],
     imgSrc: project5,
     link: "https://pay-bill-withfriend.netlify.app",
+    sourceCode: "https://github.com/mirwais-sanaie/eatNsplit-app",
   },
   {
     id: 6,
     title: "Restaurant Website",
     description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
+      "A responsive restaurant website that showcases the menu, location, and contact information.",
     techStack: ["Html", "css"],
     imgSrc: project6,
     link: "https://restaurant-univer.netlify.app",
+    sourceCode: "https://github.com/mirwais-sanaie/restaurant-web",
   },
 ];
 
@@ -108,74 +112,74 @@ export const SKILLS = [
     icon: <RiReactjsLine className="text-blue-400" />,
   },
   {
-    name: "Node.js",
-    icon: <RiNodeTree className="text-green-500" />,
-  },
-  {
-    name: "MongoDB",
-    icon: <RiDatabaseLine className="text-green-600" />,
-  },
-  {
     name: "Tailwind CSS",
     icon: <RiCodeSSlashLine className="text-teal-400" />,
   },
   {
-    name: "GraphQL",
-    icon: <RiGitBranchLine className="text-pink-400" />,
+    name: "Bootstrap",
+    icon: <RiBootstrapLine className="text-[#9755ed]" />,
+  },
+  {
+    name: "FireBase",
+    icon: <RiFirebaseLine className="text-yellow-400" />,
+  },
+  {
+    name: "GitHub",
+    icon: <RiGithubLine className="text-white" />,
   },
 ];
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    yearRange: "2025",
+    role: "Project: WorldWise Website",
+    company: "Personal Project",
     description:
-      "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
+      "A real world project using React(useReducer , ContextApi , useEffect , Authentication , Page Routing , Form validation) , CSS3 Modules , Date picker , leaflet library(for map)",
+    techStack: ["React", "Css3 module", "ContextApi"],
   },
   {
-    yearRange: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    yearRange: "2024",
+    role: "Project: Use PopCorn app",
+    company: "Personal Project",
     description:
-      "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
+      "UsePopcorn is a React application that provides users with a way to explore movies, rate them, and manage their watched movies list. Created by React(useState , useEffect , localStorage) , TailwindCss",
+    techStack: ["React", "Tailwindcss", "Local-storage"],
   },
   {
-    yearRange: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+    yearRange: "2024",
+    role: "Project: Travel list app",
+    company: "Personal Project",
     description:
-      "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-    techStack: ["Python", "Svelte", "Three.js", "Postgres"],
+      "Far Away is a travel list website that allows you to create and manage your packing list for your upcoming trips.",
+    techStack: ["React", "Tailwind CSS"],
   },
   {
-    yearRange: "2020 - 2021",
-    role: "Software Engineer",
-    company: "PayPal",
+    yearRange: "2024",
+    role: "Project: Shopping list Website",
+    company: "Personal Project",
     description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["Ruby", "Rails", "PHP", "SQLite"],
+      "A Taking note app created by React(using useState , useEffect , Routing , local storage) and Tailwindcss. the ability: save item , delete , edit .",
+    techStack: ["React", "Tailwind CSS"],
   },
 ];
 
 export const EDUCATION = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
+    degree: "Bachelor in Computer Science",
     institution: "Herat University",
-    duration: "2022 - 2026",
+    duration: "2022 - ongoing",
     description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
+      "Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
   },
   {
     id: 2,
-    degree: "Master of Science in Software Engineering",
-    institution: "MIT",
-    duration: "2016 - 2018",
+    degree: "Advanced JavaScript",
+    institution: "Online Platforms (Udemy, Coursera)",
+    duration: "2022 - 2024",
     description:
-      "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
+      "Completed multiple online courses and certifications in JavaScript. Gained expertise in key JavaScript concepts such as asynchronous programming (Promises, async/await, event loop) ,algorithms,data structures , and modern JavaScript (ES6+).",
   },
   {
     id: 3,

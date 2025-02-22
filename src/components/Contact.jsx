@@ -61,7 +61,7 @@ function Contact() {
           <a
             href="https://www.linkedin.com/in/mirwais-sanaie-2a5760292"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="norepenner noreferrer"
             className="contact-icon"
             aria-label="visit my linkedin profile"
           >
@@ -70,7 +70,7 @@ function Contact() {
           <a
             href="https://github.com/mirwais-sanaie"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="norepenner noreferrer"
             className="contact-icon"
             aria-label="visit my github profile"
           >
@@ -79,7 +79,7 @@ function Contact() {
           <a
             href="https://x.com/MirwaisSan98138"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="norepenner noreferrer"
             className="contact-icon"
             aria-label="visit my X profile"
           >

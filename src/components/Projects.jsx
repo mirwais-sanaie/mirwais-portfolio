@@ -71,6 +71,25 @@ function Projects() {
                         </li>
                       ))}
                     </ul>
+                    <div className="w-full h-[0.5px] bg-pink-500/30 mt-2"></div>
+                    <div className="mt-1">
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block px-3 py-2 text-sm font-semibold text-white hover:bg-pink-500/30"
+                      >
+                        View Project
+                      </a>
+                      <a
+                        href={project.sourceCode}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block px-3 py-2 text-sm font-semibold text-white hover:bg-pink-500/30"
+                      >
+                        Source Code
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
