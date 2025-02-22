@@ -53,6 +53,11 @@ function Hero() {
     return () => ctx.revert();
   }, []);
 
+  const handleDownloadClick = (e) => {
+    e.preventDefault();
+    window.location.href = "./myResume.pdf";
+  };
+
   return (
     <section
       className="flex min-h-screen flex-col pt-21 items-center justify-center gap-4 lg:gap-6"
@@ -70,6 +75,7 @@ function Hero() {
         target="_blank"
         rel="noopener noreferrer"
         download
+        onClick={(e) => handleDownloadClick(e)}
         className="hero-btn mb-3 flex gap-1 rounded-full border border-pink-200/50 px-3 py-2 tracking-tighter"
       >
         <span>Download resume</span>
