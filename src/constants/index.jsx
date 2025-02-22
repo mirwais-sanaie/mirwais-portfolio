@@ -28,7 +28,7 @@ export const PROFILE = {
   name: "Mirwais Sanaie",
   role: "Front-End Developer",
   subheading:
-    "With 2 years of front-end development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+    "With 2 years of front-end development experience, I build efficient, scalable web applications.  always curious about interesting projects.",
 };
 
 export const PROJECTS = [
