@@ -36,7 +36,7 @@ export const PROJECTS = [
     id: 1,
     title: "WorldWise Website",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
+      "A world map that tracks your footsteps into every city you can think of. Never forget your wonderful experiences.",
     techStack: ["React", "Html", "Css", "ContextApi"],
     imgSrc: project1,
     link: "https://worldwise-app-delta.vercel.app",
@@ -56,7 +56,7 @@ export const PROJECTS = [
     id: 3,
     title: "Travel list app",
     description:
-      "With the Far away app you can write down your essentials for the trip to prepare them.",
+      "A React app that allows travellers to add items they need for their next trip The app will display the items that are added.",
     techStack: ["React", "Tailwind CSS"],
     imgSrc: project3,
     link: "https://travel-lits.web.app",
@@ -135,7 +135,7 @@ export const EXPERIENCES = [
     role: "Project: WorldWise Website",
     company: "Personal Project",
     description:
-      "A real world project using React(useReducer , ContextApi , useEffect , Authentication , Page Routing , Form validation) , CSS3 Modules , Date picker , leaflet library(for map)",
+      "Developed a real-world project using React (useReducer, Context API, useEffect), Authentication, Page Routing, and Form Validation. Implemented CSS3 Modules, Date Picker, and Leaflet library for map integration.",
     techStack: ["React", "Css3 module", "ContextApi"],
   },
   {
@@ -143,7 +143,7 @@ export const EXPERIENCES = [
     role: "Project: Use PopCorn app",
     company: "Personal Project",
     description:
-      "UsePopcorn is a React application that provides users with a way to explore movies, rate them, and manage their watched movies list. Created by React(useState , useEffect , localStorage) , TailwindCss",
+      "Created a React application that allows users to explore movies, rate them, and manage their watched movies list. Utilized React (useState, useEffect, localStorage) and Tailwind CSS for styling.",
     techStack: ["React", "Tailwindcss", "Local-storage"],
   },
   {
@@ -151,7 +151,7 @@ export const EXPERIENCES = [
     role: "Project: Travel list app",
     company: "Personal Project",
     description:
-      "Far Away is a travel list website that allows you to create and manage your packing list for your upcoming trips.",
+      "Built a travel list website that enables users to create and manage their packing list for upcoming trips. Leveraged React and Tailwind CSS for a responsive and user-friendly interface.",
     techStack: ["React", "Tailwind CSS"],
   },
   {
@@ -159,7 +159,7 @@ export const EXPERIENCES = [
     role: "Project: Shopping list Website",
     company: "Personal Project",
     description:
-      "A Taking note app created by React(using useState , useEffect , Routing , local storage) and Tailwindcss. the ability: save item , delete , edit .",
+      "Developed a note-taking app using React (useState, useEffect, Routing, localStorage) and Tailwind CSS. Features include saving items, deleting, and editing.",
     techStack: ["React", "Tailwind CSS"],
   },
 ];
