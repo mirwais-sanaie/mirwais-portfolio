@@ -1,3 +1,4 @@
+import { TbBrandTypescript } from "react-icons/tb";
 import project1 from "../../public/project1.png";
 import project2 from "../../public/project2.png";
 import project3 from "../../public/project3.png";
@@ -10,9 +11,9 @@ import {
   RiCss3Line,
   RiJavascriptLine,
   RiReactjsLine,
-  RiBootstrapLine,
   RiFirebaseLine,
   RiGithubLine,
+  RiNextjsLine,
 } from "@remixicon/react";
 import { RiCodeSSlashLine } from "@remixicon/react";
 
@@ -28,7 +29,7 @@ export const PROFILE = {
   name: "Mirwais Sanaie",
   role: "Front-End Developer",
   subheading:
-    "With 2 years of front-end development experience, I build efficient, scalable web applications.  always curious about interesting projects.",
+    "With 3 years of front-end development experience, I build efficient, scalable web applications.  always curious about interesting projects.",
 };
 
 export const PROJECTS = [
@@ -44,23 +45,23 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "Use PopCorn app",
+    title: "Hotel Management",
     description:
-      "A React application that provides users with a way to explore movies, rate them, and manage their watched movies list.",
-    techStack: ["React", "Firebase", "Redux"],
+      "A world map that tracks your footsteps into every city you can think of. Never forget your wonderful experiences.",
+    techStack: ["Next js", "React js", "Tailwind css", "Supabase"],
     imgSrc: project2,
-    link: "https://usepopcorn-addtowatch.netlify.app",
-    sourceCode: "https://github.com/mirwais-sanaie/usePopCorn-app",
+    link: "https://hotel-management-sage-five.vercel.app/",
+    sourceCode: "https://github.com/mirwais-sanaie/Hotel-Management",
   },
   {
     id: 3,
-    title: "Travel list app",
+    title: "Hotel web dashboard",
     description:
-      "A React app that allows travellers to add items they need for their next trip The app will display the items that are added.",
-    techStack: ["React", "Tailwind CSS"],
+      "A React application that provides users with a way to explore movies, rate them, and manage their watched movies list.",
+    techStack: ["React js", "supabase", "React query", "Styled component"],
     imgSrc: project3,
-    link: "https://travel-lits.web.app",
-    sourceCode: "https://github.com/mirwais-sanaie/TravelList-app",
+    link: "https://wild-oasis-hotel-beta.vercel.app/",
+    sourceCode: "https://github.com/mirwais-sanaie/wild-oasis-hotel",
   },
   {
     id: 4,
@@ -74,13 +75,19 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    title: "Pay Bill app",
+    title: "Artist's world",
     description:
       "A bill management app with tools of divide bill among friends, add friend, edit and remove it.",
-    techStack: ["React", "Html", "Css"],
+    techStack: [
+      "React",
+      "Tailwind css",
+      "Shadcn Ui",
+      "React query",
+      "Supabase",
+    ],
     imgSrc: project5,
-    link: "https://pay-bill-withfriend.netlify.app",
-    sourceCode: "https://github.com/mirwais-sanaie/eatNsplit-app",
+    link: "https://github.com/mirwais-sanaie/Artist-s-world",
+    sourceCode: "https://artist-s-world-x5kk.vercel.app/",
   },
   {
     id: 6,
@@ -108,17 +115,22 @@ export const SKILLS = [
     icon: <RiJavascriptLine className="text-yellow-500" />,
   },
   {
-    name: "React",
+    name: "TypeScript",
+    icon: <TbBrandTypescript className="text-blue-500" />,
+  },
+  {
+    name: "ReactJs",
     icon: <RiReactjsLine className="text-blue-400" />,
+  },
+  {
+    name: "NextJs",
+    icon: <RiNextjsLine className="text-[#ffffff]" />,
   },
   {
     name: "Tailwind CSS",
     icon: <RiCodeSSlashLine className="text-teal-400" />,
   },
-  {
-    name: "Bootstrap",
-    icon: <RiBootstrapLine className="text-[#9755ed]" />,
-  },
+
   {
     name: "FireBase",
     icon: <RiFirebaseLine className="text-yellow-400" />,
