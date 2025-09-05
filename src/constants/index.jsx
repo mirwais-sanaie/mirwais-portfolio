@@ -143,7 +143,7 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    yearRange: "2025",
+    yearRange: "2024",
     role: "Project: WorldWise Website",
     company: "Personal Project",
     description:
@@ -151,20 +151,20 @@ export const EXPERIENCES = [
     techStack: ["React", "Css3 module", "ContextApi"],
   },
   {
-    yearRange: "2024",
-    role: "Project: Use PopCorn app",
+    yearRange: "2025",
+    role: "Project: Hotel Management Website",
     company: "Personal Project",
     description:
-      "Created a React application that allows users to explore movies, rate them, and manage their watched movies list. Utilized React (useState, useEffect, localStorage) and Tailwind CSS for styling.",
-    techStack: ["React", "Tailwindcss", "Local-storage"],
+      "full-featured React web application that allows hotel employees to manage cabins, bookings, and guests.",
+    techStack: ["ReactJs", "NextJs", "Tailwindcss", "Supabase"],
   },
   {
-    yearRange: "2024",
-    role: "Project: Travel list app",
+    yearRange: "2025",
+    role: "Project: Hotel web dashboard",
     company: "Personal Project",
     description:
-      "Built a travel list website that enables users to create and manage their packing list for upcoming trips. Leveraged React and Tailwind CSS for a responsive and user-friendly interface.",
-    techStack: ["React", "Tailwind CSS"],
+      "This application is designed to manage hotel operations, including sales statistics, cabin management, user management, booking management, and various customization options. And so much more!",
+    techStack: ["React", "Tailwind CSS", "Supabase"],
   },
   {
     yearRange: "2024",
